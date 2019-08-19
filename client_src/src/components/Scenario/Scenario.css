@@ -1,0 +1,32 @@
+.scenario-head {
+    height: 300px;
+    border: 3px solid transparent;
+}
+
+.scenario-head > h1 {
+    margin-top: 60px;
+    font-size: 3.5rem;
+    color: #DC3545;
+    text-shadow:
+        -1px -1px 0 #000000,
+         1px -1px 0 #000000,
+        -1px  1px 0 #000000,
+         1px  1px 0 #000000;
+}
+
+.scenario-head > h4 {
+    margin-top: 20px;
+}
+
+.scenario-body {
+    width: 50%;
+    margin: auto;
+    margin-top: -25px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.scenario-body > p {
+    padding-bottom: 50px;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,6514 @@
+{
+    "testSet":
+    [
+        {
+            "code" : "R1",
+            "value" : 5,
+            "cost" : 2,
+            "risk" : 1.548,
+            "returnRate" : 0.01,
+            "dependencies" : [],
+            "timeRemaining" : 3
+        },
+        {
+            "code" : "R2",
+            "value" : 2,
+            "cost" : 2,
+            "risk" : 0.561,
+            "returnRate" : 0.02,
+            "dependencies" : [],
+            "timeRemaining" : 2
+        },
+        {
+            "code" : "R3",
+            "value" : 5,
+            "cost" : 3,
+            "risk" : 1.293,
+            "returnRate" : 0.03,
+            "dependencies" : ["R13"],
+            "timeRemaining" : 4
+        },
+        {
+            "code" : "R4",
+            "value" : 8,
+            "cost" : 6,
+            "risk" : 0.824,
+            "returnRate" : 0.04,
+            "dependencies" : [],
+            "timeRemaining" : 2
+        },
+        {
+            "code" : "R5",
+            "value" : 8,
+            "cost" : 4,
+            "risk" : 1.578,
+            "returnRate" : 0.05,
+            "dependencies" : ["R1"],
+            "timeRemaining" : 2
+        },
+        {
+            "code" : "R6",
+            "value" : 5,
+            "cost" : 3,
+            "risk" : 0.991,
+            "returnRate" : 0.01,
+            "dependencies" : ["R5"],
+            "timeRemaining" : 4
+        },
+        {
+            "code" : "R7",
+            "value" : 9,
+            "cost" : 2,
+            "risk" : 2.031,
+            "returnRate" : 0.02,
+            "dependencies" : ["R6"],
+            "timeRemaining" : 3
+        },
+        {
+            "code" : "R8",
+            "value" : 5,
+            "cost" : 2,
+            "risk" : 1.234,
+            "returnRate" : 0.03,
+            "dependencies" : [],
+            "timeRemaining" : 5
+        },
+        {
+            "code" : "R9",
+            "value" : 7,
+            "cost" : 4,
+            "risk" : 1.77,
+            "returnRate" : 0.04,
+            "dependencies" : [],
+            "timeRemaining" : 4
+        },
+        {
+            "code" : "R10",
+            "value" : 1,
+            "cost" : 2,
+            "risk" : 0.218,
+            "returnRate" : 0.05,
+            "dependencies" : ["R9"],
+            "timeRemaining" : 3
+        },
+        {
+            "code" : "R11",
+            "value" : 1,
+            "cost" : 1,
+            "risk" : 0.24,
+            "returnRate" : 0.01,
+            "dependencies" : ["R1"],
+            "timeRemaining" : 2
+        },
+        {
+            "code" : "R12",
+            "value" : 2,
+            "cost" : 1,
+            "risk" : 0.603,
+            "returnRate" : 0.02,
+            "dependencies" : [],
+            "timeRemaining" : 2
+        },
+        {
+            "code" : "R13",
+            "value" : 1,
+            "cost" : 4,
+            "risk" : 0.262,
+            "returnRate" : 0.03,
+            "dependencies" : [],
+            "timeRemaining" : 4
+        },
+        {
+            "code" : "R14",
+            "value" : 6,
+            "cost" : 2,
+            "risk" : 1.54,
+            "returnRate" : 0.04,
+            "dependencies" : ["R13"],
+            "timeRemaining" : 3
+        },
+        {
+            "code" : "R15",
+            "value" : 8,
+            "cost" : 8,
+            "risk" : 2.871,
+            "returnRate" : 0.05,
+            "dependencies" : ["R4"],
+            "timeRemaining" : 5
+        },
+        {
+            "code" : "R16",
+            "value" : 4,
+            "cost" : 6,
+            "risk" : 1.156,
+            "returnRate" : 0.01,
+            "dependencies" : [],
+            "timeRemaining" : 4
+        },
+        {
+            "code" : "R17",
+            "value" : 2,
+            "cost" : 4,
+            "risk" : 0.559,
+            "returnRate" : 0.02,
+            "dependencies" : [],
+            "timeRemaining" : 3
+        },
+        {
+            "code" : "R18",
+            "value" : 1,
+            "cost" : 2,
+            "risk" : 0.156,
+            "returnRate" : 0.03,
+            "dependencies" : [],
+            "timeRemaining" : 1
+        },
+        {
+            "code" : "R19",
+            "value" : 6,
+            "cost" : 5,
+            "risk" : 2.182,
+            "returnRate" : 0.04,
+            "dependencies" : ["R15"],
+            "timeRemaining" : 6
+        },
+        {
+            "code" : "R20",
+            "value" : 1,
+            "cost" : 1,
+            "risk" : 0.208,
+            "returnRate" : 0.05,
+            "dependencies" : [],
+            "timeRemaining" : 2
+        }
+    ],
+
+
+
+
+    "hundredSet1":
+        [
+            {
+                "code" : "R1",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 1.287,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R2",
+                "value" : 4,
+                "cost" : 5,
+                "risk" : 0.893,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R3",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.635,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R4",
+                "value" : 6,
+                "cost" : 1,
+                "risk" : 1.924,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R5",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 2.396,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R6",
+                "value" : 7,
+                "cost" : 7,
+                "risk" : 1.881,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R7",
+                "value" : 8,
+                "cost" : 2,
+                "risk" : 1.11,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R8",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 1.448,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R9",
+                "value" : 6,
+                "cost" : 4,
+                "risk" : 1.45,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R10",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.462,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R11",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.635,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R12",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 0.794,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R13",
+                "value" : 9,
+                "cost" : 4,
+                "risk" : 2.167,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R14",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.155,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R15",
+                "value" : 5,
+                "cost" : 8,
+                "risk" : 0.935,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R16",
+                "value" : 7,
+                "cost" : 6,
+                "risk" : 1.335,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R17",
+                "value" : 3,
+                "cost" : 4,
+                "risk" : 0.922,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R18",
+                "value" : 1,
+                "cost" : 2,
+                "risk" : 0.17,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R19",
+                "value" : 6,
+                "cost" : 5,
+                "risk" : 1.351,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R20",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.54,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R21",
+                "value" : 7,
+                "cost" : 1,
+                "risk" : 0.95,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R22",
+                "value" : 1,
+                "cost" : 7,
+                "risk" : 0.229,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R23",
+                "value" : 6,
+                "cost" : 5,
+                "risk" : 1.56,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R24",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.352,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R25",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 1.356,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R26",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 1.093,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R27",
+                "value" : 2,
+                "cost" : 4,
+                "risk" : 0.386,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R28",
+                "value" : 5,
+                "cost" : 7,
+                "risk" : 1.55,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R29",
+                "value" : 8,
+                "cost" : 2,
+                "risk" : 2.456,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R30",
+                "value" : 4,
+                "cost" : 4,
+                "risk" : 1.707,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R31",
+                "value" : 1,
+                "cost" : 5,
+                "risk" : 0.434,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R32",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 2.498,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R33",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.214,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R34",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.449,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R35",
+                "value" : 3,
+                "cost" : 6,
+                "risk" : 0.779,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R36",
+                "value" : 3,
+                "cost" : 3,
+                "risk" : 0.527,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R37",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.673,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R38",
+                "value" : 6,
+                "cost" : 2,
+                "risk" : 1.465,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R39",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 0.77,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R40",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.408,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R41",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.82,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R42",
+                "value" : 3,
+                "cost" : 2,
+                "risk" : 0.82,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R43",
+                "value" : 6,
+                "cost" : 3,
+                "risk" : 1.742,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R44",
+                "value" : 2,
+                "cost" : 4,
+                "risk" : 0.44,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R45",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.439,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R46",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.325,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R47",
+                "value" : 7,
+                "cost" : 3,
+                "risk" : 1.93,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R48",
+                "value" : 9,
+                "cost" : 5,
+                "risk" : 1.55,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R49",
+                "value" : 6,
+                "cost" : 1,
+                "risk" : 2.295,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R50",
+                "value" : 6,
+                "cost" : 6,
+                "risk" : 1.908,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R51",
+                "value" : 1,
+                "cost" : 3,
+                "risk" : 0.238,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R52",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.14,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R53",
+                "value" : 2,
+                "cost" : 6,
+                "risk" : 0.408,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R54",
+                "value" : 6,
+                "cost" : 2,
+                "risk" : 1.931,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R55",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.352,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R56",
+                "value" : 3,
+                "cost" : 7,
+                "risk" : 1.057,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R57",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.774,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R58",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 1.471,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R59",
+                "value" : 5,
+                "cost" : 4,
+                "risk" : 0.908,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R60",
+                "value" : 6,
+                "cost" : 4,
+                "risk" : 2.463,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R61",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 1.276,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R62",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 1.093,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R63",
+                "value" : 7,
+                "cost" : 6,
+                "risk" : 2.224,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R64",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.565,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R65",
+                "value" : 4,
+                "cost" : 8,
+                "risk" : 0.749,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R66",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.228,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R67",
+                "value" : 6,
+                "cost" : 6,
+                "risk" : 1.962,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R68",
+                "value" : 4,
+                "cost" : 3,
+                "risk" : 1.073,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R69",
+                "value" : 9,
+                "cost" : 2,
+                "risk" : 1.242,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R70",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 0.675,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R71",
+                "value" : 7,
+                "cost" : 7,
+                "risk" : 2.323,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R72",
+                "value" : 4,
+                "cost" : 5,
+                "risk" : 1.3,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R73",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.518,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R74",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.305,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R75",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.259,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R76",
+                "value" : 9,
+                "cost" : 9,
+                "risk" : 2.928,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R77",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 0.84,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R78",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 0.831,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R79",
+                "value" : 6,
+                "cost" : 3,
+                "risk" : 0.855,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R80",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 1.062,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R81",
+                "value" : 9,
+                "cost" : 4,
+                "risk" : 2.334,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R82",
+                "value" : 2,
+                "cost" : 9,
+                "risk" : 0.465,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R83",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 0.775,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R84",
+                "value" : 6,
+                "cost" : 3,
+                "risk" : 1.329,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R85",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.797,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R86",
+                "value" : 4,
+                "cost" : 7,
+                "risk" : 0.766,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R87",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 0.872,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R88",
+                "value" : 3,
+                "cost" : 7,
+                "risk" : 1.222,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R89",
+                "value" : 8,
+                "cost" : 3,
+                "risk" : 2.329,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R90",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 0.95,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R91",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.262,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R92",
+                "value" : 3,
+                "cost" : 4,
+                "risk" : 0.803,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R93",
+                "value" : 9,
+                "cost" : 9,
+                "risk" : 1.518,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R94",
+                "value" : 3,
+                "cost" : 2,
+                "risk" : 0.579,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R95",
+                "value" : 5,
+                "cost" : 6,
+                "risk" : 1.39,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R96",
+                "value" : 2,
+                "cost" : 3,
+                "risk" : 0.663,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R97",
+                "value" : 7,
+                "cost" : 3,
+                "risk" : 1.01,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R98",
+                "value" : 5,
+                "cost" : 7,
+                "risk" : 1.296,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R99",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.118,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R100",
+                "value" : 2,
+                "cost" : 4,
+                "risk" : 1.287,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            }
+        ],
+
+
+
+
+        "hundredSet2":
+        [
+            {
+                "code" : "R1",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 1.287,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R2",
+                "value" : 4,
+                "cost" : 5,
+                "risk" : 0.893,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R3",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.635,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R4",
+                "value" : 6,
+                "cost" : 1,
+                "risk" : 1.924,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R5",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 2.396,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R6",
+                "value" : 7,
+                "cost" : 7,
+                "risk" : 1.881,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R7",
+                "value" : 8,
+                "cost" : 2,
+                "risk" : 1.11,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R8",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 1.448,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R9",
+                "value" : 6,
+                "cost" : 4,
+                "risk" : 1.45,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R10",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.462,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R11",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.635,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R12",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 0.794,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R13",
+                "value" : 9,
+                "cost" : 4,
+                "risk" : 2.167,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R14",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.155,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R15",
+                "value" : 5,
+                "cost" : 8,
+                "risk" : 0.935,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R16",
+                "value" : 7,
+                "cost" : 6,
+                "risk" : 1.335,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R17",
+                "value" : 3,
+                "cost" : 4,
+                "risk" : 0.922,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R18",
+                "value" : 1,
+                "cost" : 2,
+                "risk" : 0.17,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R19",
+                "value" : 6,
+                "cost" : 5,
+                "risk" : 1.351,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R20",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.54,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R21",
+                "value" : 7,
+                "cost" : 1,
+                "risk" : 0.95,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R22",
+                "value" : 1,
+                "cost" : 7,
+                "risk" : 0.229,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R23",
+                "value" : 6,
+                "cost" : 5,
+                "risk" : 1.56,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R24",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.352,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R25",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 1.356,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R26",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 1.093,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R27",
+                "value" : 2,
+                "cost" : 4,
+                "risk" : 0.386,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R28",
+                "value" : 5,
+                "cost" : 7,
+                "risk" : 1.55,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R29",
+                "value" : 8,
+                "cost" : 2,
+                "risk" : 2.456,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R30",
+                "value" : 4,
+                "cost" : 4,
+                "risk" : 1.707,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R31",
+                "value" : 1,
+                "cost" : 5,
+                "risk" : 0.434,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R32",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 2.498,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R33",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.214,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R34",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.449,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R35",
+                "value" : 3,
+                "cost" : 6,
+                "risk" : 0.779,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R36",
+                "value" : 3,
+                "cost" : 3,
+                "risk" : 0.527,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R37",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.673,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R38",
+                "value" : 6,
+                "cost" : 2,
+                "risk" : 1.465,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R39",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 0.77,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R40",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.408,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R41",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.82,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R42",
+                "value" : 3,
+                "cost" : 2,
+                "risk" : 0.82,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R43",
+                "value" : 6,
+                "cost" : 3,
+                "risk" : 1.742,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R44",
+                "value" : 2,
+                "cost" : 4,
+                "risk" : 0.44,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R45",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.439,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R46",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.325,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R47",
+                "value" : 7,
+                "cost" : 3,
+                "risk" : 1.93,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R48",
+                "value" : 9,
+                "cost" : 5,
+                "risk" : 1.55,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R49",
+                "value" : 6,
+                "cost" : 1,
+                "risk" : 2.295,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R50",
+                "value" : 6,
+                "cost" : 6,
+                "risk" : 1.908,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R51",
+                "value" : 1,
+                "cost" : 3,
+                "risk" : 0.238,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R52",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.14,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R53",
+                "value" : 2,
+                "cost" : 6,
+                "risk" : 0.408,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R54",
+                "value" : 6,
+                "cost" : 2,
+                "risk" : 1.931,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R55",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.352,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R56",
+                "value" : 3,
+                "cost" : 7,
+                "risk" : 1.057,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R57",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.774,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R58",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 1.471,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R59",
+                "value" : 5,
+                "cost" : 4,
+                "risk" : 0.908,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R60",
+                "value" : 6,
+                "cost" : 4,
+                "risk" : 2.463,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R61",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 1.276,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R62",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 1.093,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R63",
+                "value" : 7,
+                "cost" : 6,
+                "risk" : 2.224,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R64",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.565,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R65",
+                "value" : 4,
+                "cost" : 8,
+                "risk" : 0.749,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R66",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.228,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R67",
+                "value" : 6,
+                "cost" : 6,
+                "risk" : 1.962,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R68",
+                "value" : 4,
+                "cost" : 3,
+                "risk" : 1.073,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R69",
+                "value" : 9,
+                "cost" : 2,
+                "risk" : 1.242,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R70",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 0.675,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R71",
+                "value" : 7,
+                "cost" : 7,
+                "risk" : 2.323,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R72",
+                "value" : 4,
+                "cost" : 5,
+                "risk" : 1.3,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R73",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.518,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R74",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.305,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R75",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.259,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R76",
+                "value" : 9,
+                "cost" : 9,
+                "risk" : 2.928,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R77",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 0.84,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R78",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 0.831,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R79",
+                "value" : 6,
+                "cost" : 3,
+                "risk" : 0.855,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R80",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 1.062,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R81",
+                "value" : 9,
+                "cost" : 4,
+                "risk" : 2.334,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R82",
+                "value" : 2,
+                "cost" : 9,
+                "risk" : 0.465,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R83",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 0.775,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R84",
+                "value" : 6,
+                "cost" : 3,
+                "risk" : 1.329,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R85",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.797,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R86",
+                "value" : 4,
+                "cost" : 7,
+                "risk" : 0.766,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R87",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 0.872,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R88",
+                "value" : 3,
+                "cost" : 7,
+                "risk" : 1.222,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R89",
+                "value" : 8,
+                "cost" : 3,
+                "risk" : 2.329,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R90",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 0.95,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R91",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.262,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R92",
+                "value" : 3,
+                "cost" : 4,
+                "risk" : 0.803,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R93",
+                "value" : 9,
+                "cost" : 9,
+                "risk" : 1.518,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R94",
+                "value" : 3,
+                "cost" : 2,
+                "risk" : 0.579,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R95",
+                "value" : 5,
+                "cost" : 6,
+                "risk" : 1.39,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R96",
+                "value" : 2,
+                "cost" : 3,
+                "risk" : 0.663,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R97",
+                "value" : 7,
+                "cost" : 3,
+                "risk" : 1.01,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R98",
+                "value" : 5,
+                "cost" : 7,
+                "risk" : 1.296,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R99",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.118,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R100",
+                "value" : 2,
+                "cost" : 4,
+                "risk" : 1.287,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            }
+        ],
+
+
+
+
+    "twoFiftySet1":
+        [
+            {
+                "code" : "R1",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 0.798,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R2",
+                "value" : 4,
+                "cost" : 5,
+                "risk" : 0.963,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R3",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.311,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R4",
+                "value" : 6,
+                "cost" : 1,
+                "risk" : 1,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R5",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 1.631,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R6",
+                "value" : 7,
+                "cost" : 7,
+                "risk" : 1.631,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R7",
+                "value" : 8,
+                "cost" : 2,
+                "risk" : 1.701,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R8",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 1.59,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R9",
+                "value" : 6,
+                "cost" : 4,
+                "risk" : 1.672,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R10",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.433,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R11",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.96,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R12",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 1.195,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R13",
+                "value" : 9,
+                "cost" : 4,
+                "risk" : 2.367,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R14",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.277,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R15",
+                "value" : 5,
+                "cost" : 8,
+                "risk" : 0.735,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R16",
+                "value" : 7,
+                "cost" : 6,
+                "risk" : 0.85,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R17",
+                "value" : 3,
+                "cost" : 4,
+                "risk" : 0.688,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R18",
+                "value" : 1,
+                "cost" : 2,
+                "risk" : 0.107,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R19",
+                "value" : 6,
+                "cost" : 5,
+                "risk" : 1.423,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R20",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.436,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R21",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.32,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R22",
+                "value" : 1,
+                "cost" : 2,
+                "risk" : 0.241,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R23",
+                "value" : 1,
+                "cost" : 3,
+                "risk" : 0.212,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R24",
+                "value" : 1,
+                "cost" : 4,
+                "risk" : 0.201,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R25",
+                "value" : 1,
+                "cost" : 5,
+                "risk" : 0.462,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R26",
+                "value" : 1,
+                "cost" : 6,
+                "risk" : 0.412,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R27",
+                "value" : 1,
+                "cost" : 7,
+                "risk" : 0.172,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R28",
+                "value" : 1,
+                "cost" : 8,
+                "risk" : 0.13,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R29",
+                "value" : 1,
+                "cost" : 9,
+                "risk" : 0.28,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R30",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.45,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R31",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.812,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R32",
+                "value" : 2,
+                "cost" : 3,
+                "risk" : 0.485,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R33",
+                "value" : 2,
+                "cost" : 4,
+                "risk" : 0.618,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R34",
+                "value" : 2,
+                "cost" : 5,
+                "risk" : 0.507,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R35",
+                "value" : 2,
+                "cost" : 6,
+                "risk" : 0.68,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R36",
+                "value" : 2,
+                "cost" : 7,
+                "risk" : 0.316,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R37",
+                "value" : 2,
+                "cost" : 8,
+                "risk" : 0.564,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R38",
+                "value" : 2,
+                "cost" : 9,
+                "risk" : 0.485,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R39",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.88,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R40",
+                "value" : 3,
+                "cost" : 2,
+                "risk" : 0.906,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R41",
+                "value" : 3,
+                "cost" : 3,
+                "risk" : 0.7,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R42",
+                "value" : 3,
+                "cost" : 4,
+                "risk" : 0.693,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R43",
+                "value" : 3,
+                "cost" : 5,
+                "risk" : 0.66,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R44",
+                "value" : 3,
+                "cost" : 6,
+                "risk" : 0.501,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R45",
+                "value" : 3,
+                "cost" : 7,
+                "risk" : 0.484,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R46",
+                "value" : 3,
+                "cost" : 8,
+                "risk" : 0.534,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R47",
+                "value" : 3,
+                "cost" : 9,
+                "risk" : 0.717,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R48",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 0.859,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R49",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 1.023,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R50",
+                "value" : 4,
+                "cost" : 3,
+                "risk" : 0.774,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R51",
+                "value" : 4,
+                "cost" : 4,
+                "risk" : 0.523,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R52",
+                "value" : 4,
+                "cost" : 5,
+                "risk" : 0.99,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R53",
+                "value" : 4,
+                "cost" : 6,
+                "risk" : 0.536,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R54",
+                "value" : 4,
+                "cost" : 7,
+                "risk" : 1.108,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R55",
+                "value" : 4,
+                "cost" : 8,
+                "risk" : 0.875,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R56",
+                "value" : 4,
+                "cost" : 9,
+                "risk" : 1.023,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R57",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 0.54,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R58",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.208,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R59",
+                "value" : 5,
+                "cost" : 3,
+                "risk" : 1.332,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R60",
+                "value" : 5,
+                "cost" : 4,
+                "risk" : 1,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R61",
+                "value" : 5,
+                "cost" : 5,
+                "risk" : 1.498,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R62",
+                "value" : 5,
+                "cost" : 6,
+                "risk" : 1.202,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R63",
+                "value" : 5,
+                "cost" : 7,
+                "risk" : 0.638,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R64",
+                "value" : 5,
+                "cost" : 8,
+                "risk" : 1.77,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R65",
+                "value" : 5,
+                "cost" : 9,
+                "risk" : 1.485,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R66",
+                "value" : 6,
+                "cost" : 1,
+                "risk" : 1.434,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R67",
+                "value" : 6,
+                "cost" : 2,
+                "risk" : 1.245,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R68",
+                "value" : 6,
+                "cost" : 3,
+                "risk" : 1.714,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R69",
+                "value" : 6,
+                "cost" : 4,
+                "risk" : 0.824,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R70",
+                "value" : 6,
+                "cost" : 5,
+                "risk" : 0.797,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R71",
+                "value" : 6,
+                "cost" : 6,
+                "risk" : 1.669,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R72",
+                "value" : 6,
+                "cost" : 7,
+                "risk" : 1.835,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R73",
+                "value" : 6,
+                "cost" : 8,
+                "risk" : 0.883,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R74",
+                "value" : 6,
+                "cost" : 9,
+                "risk" : 1.853,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R75",
+                "value" : 7,
+                "cost" : 1,
+                "risk" : 1.619,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R76",
+                "value" : 7,
+                "cost" : 2,
+                "risk" : 1.79,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R77",
+                "value" : 7,
+                "cost" : 3,
+                "risk" : 1.468,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R78",
+                "value" : 7,
+                "cost" : 4,
+                "risk" : 1.291,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R79",
+                "value" : 7,
+                "cost" : 5,
+                "risk" : 1.087,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R80",
+                "value" : 7,
+                "cost" : 6,
+                "risk" : 1.368,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R81",
+                "value" : 7,
+                "cost" : 7,
+                "risk" : 1.93,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R82",
+                "value" : 7,
+                "cost" : 8,
+                "risk" : 1.669,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R83",
+                "value" : 7,
+                "cost" : 9,
+                "risk" : 1.526,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R84",
+                "value" : 8,
+                "cost" : 1,
+                "risk" : 2.044,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R85",
+                "value" : 8,
+                "cost" : 2,
+                "risk" : 3.335,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R86",
+                "value" : 8,
+                "cost" : 3,
+                "risk" : 0.98,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R87",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 2.515,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R88",
+                "value" : 8,
+                "cost" : 5,
+                "risk" : 2.127,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R89",
+                "value" : 8,
+                "cost" : 6,
+                "risk" : 2.979,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R90",
+                "value" : 8,
+                "cost" : 7,
+                "risk" : 2.314,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R91",
+                "value" : 8,
+                "cost" : 8,
+                "risk" : 2.006,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R92",
+                "value" : 8,
+                "cost" : 9,
+                "risk" : 2.004,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R93",
+                "value" : 9,
+                "cost" : 1,
+                "risk" : 1.739,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R94",
+                "value" : 9,
+                "cost" : 2,
+                "risk" : 3.281,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R95",
+                "value" : 9,
+                "cost" : 3,
+                "risk" : 1.302,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R96",
+                "value" : 9,
+                "cost" : 4,
+                "risk" : 1.713,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R97",
+                "value" : 9,
+                "cost" : 5,
+                "risk" : 1.542,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R98",
+                "value" : 9,
+                "cost" : 6,
+                "risk" : 2.139,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R99",
+                "value" : 9,
+                "cost" : 7,
+                "risk" : 1.472,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R100",
+                "value" : 9,
+                "cost" : 8,
+                "risk" : 1.657,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R101",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 0.68,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R102",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.536,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R103",
+                "value" : 5,
+                "cost" : 3,
+                "risk" : 0.931,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R104",
+                "value" : 8,
+                "cost" : 6,
+                "risk" : 2.104,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R105",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 0.766,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R106",
+                "value" : 5,
+                "cost" : 3,
+                "risk" : 1.756,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R107",
+                "value" : 9,
+                "cost" : 2,
+                "risk" : 2.221,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R108",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.519,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R109",
+                "value" : 7,
+                "cost" : 4,
+                "risk" : 1.806,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R110",
+                "value" : 1,
+                "cost" : 2,
+                "risk" : 0.168,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R111",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.287,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R112",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.491,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R113",
+                "value" : 1,
+                "cost" : 4,
+                "risk" : 0.195,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R114",
+                "value" : 6,
+                "cost" : 2,
+                "risk" : 1.359,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R115",
+                "value" : 8,
+                "cost" : 8,
+                "risk" : 1.235,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R116",
+                "value" : 4,
+                "cost" : 6,
+                "risk" : 0.864,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R117",
+                "value" : 2,
+                "cost" : 4,
+                "risk" : 0.469,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R118",
+                "value" : 1,
+                "cost" : 2,
+                "risk" : 0.272,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R119",
+                "value" : 6,
+                "cost" : 5,
+                "risk" : 1.286,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R120",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.227,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R121",
+                "value" : 8,
+                "cost" : 1,
+                "risk" : 2.514,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R122",
+                "value" : 1,
+                "cost" : 7,
+                "risk" : 0.31,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R123",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 0.635,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R124",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R125",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 1.469,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R126",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 1.106,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R127",
+                "value" : 2,
+                "cost" : 4,
+                "risk" : 0.565,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R128",
+                "value" : 5,
+                "cost" : 7,
+                "risk" : 1.239,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R129",
+                "value" : 8,
+                "cost" : 2,
+                "risk" : 2.172,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R130",
+                "value" : 4,
+                "cost" : 4,
+                "risk" : 0.666,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R131",
+                "value" : 1,
+                "cost" : 5,
+                "risk" : 0.302,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R132",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 1.241,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R133",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 0.842,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R134",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.645,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R135",
+                "value" : 3,
+                "cost" : 6,
+                "risk" : 0.626,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R136",
+                "value" : 3,
+                "cost" : 3,
+                "risk" : 0.741,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R137",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 1.085,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R138",
+                "value" : 6,
+                "cost" : 2,
+                "risk" : 0.813,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R139",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 1.77,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R140",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.552,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R141",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.734,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R142",
+                "value" : 3,
+                "cost" : 2,
+                "risk" : 0.64,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R143",
+                "value" : 6,
+                "cost" : 3,
+                "risk" : 2.178,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R144",
+                "value" : 2,
+                "cost" : 4,
+                "risk" : 0.537,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R145",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.372,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R146",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.411,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R147",
+                "value" : 7,
+                "cost" : 3,
+                "risk" : 1.783,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R148",
+                "value" : 9,
+                "cost" : 5,
+                "risk" : 2.391,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R149",
+                "value" : 6,
+                "cost" : 1,
+                "risk" : 1.512,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R150",
+                "value" : 6,
+                "cost" : 6,
+                "risk" : 1.494,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R151",
+                "value" : 1,
+                "cost" : 3,
+                "risk" : 0.264,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R152",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.785,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R153",
+                "value" : 2,
+                "cost" : 6,
+                "risk" : 0.628,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R154",
+                "value" : 6,
+                "cost" : 2,
+                "risk" : 1.331,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R155",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.479,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R156",
+                "value" : 3,
+                "cost" : 7,
+                "risk" : 0.763,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R157",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.627,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R158",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 1.786,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R159",
+                "value" : 5,
+                "cost" : 4,
+                "risk" : 1.747,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R160",
+                "value" : 6,
+                "cost" : 4,
+                "risk" : 1.442,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R161",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 1.092,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R162",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.953,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R163",
+                "value" : 7,
+                "cost" : 6,
+                "risk" : 1.928,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R164",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.502,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R165",
+                "value" : 4,
+                "cost" : 8,
+                "risk" : 1.011,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R166",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.227,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R167",
+                "value" : 6,
+                "cost" : 6,
+                "risk" : 1.324,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R168",
+                "value" : 4,
+                "cost" : 3,
+                "risk" : 1.114,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R169",
+                "value" : 9,
+                "cost" : 2,
+                "risk" : 1.61,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R170",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 1.138,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R171",
+                "value" : 7,
+                "cost" : 7,
+                "risk" : 1.828,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R172",
+                "value" : 4,
+                "cost" : 5,
+                "risk" : 1.277,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R173",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.389,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R174",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.438,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R175",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.487,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R176",
+                "value" : 9,
+                "cost" : 9,
+                "risk" : 2.214,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R177",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 0.724,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R178",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 1.466,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R179",
+                "value" : 6,
+                "cost" : 3,
+                "risk" : 1.199,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R180",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 0.894,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R181",
+                "value" : 9,
+                "cost" : 4,
+                "risk" : 2.418,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R182",
+                "value" : 2,
+                "cost" : 9,
+                "risk" : 0.504,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R183",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.345,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R184",
+                "value" : 6,
+                "cost" : 3,
+                "risk" : 0.767,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R185",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.506,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R186",
+                "value" : 4,
+                "cost" : 7,
+                "risk" : 1.023,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R187",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 1.209,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R188",
+                "value" : 3,
+                "cost" : 7,
+                "risk" : 0.409,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R189",
+                "value" : 8,
+                "cost" : 3,
+                "risk" : 2.505,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R190",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 1.161,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R191",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.265,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R192",
+                "value" : 3,
+                "cost" : 3,
+                "risk" : 0.717,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R193",
+                "value" : 9,
+                "cost" : 9,
+                "risk" : 2.364,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R194",
+                "value" : 3,
+                "cost" : 2,
+                "risk" : 0.647,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R195",
+                "value" : 6,
+                "cost" : 2,
+                "risk" : 1.933,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R196",
+                "value" : 2,
+                "cost" : 3,
+                "risk" : 0.285,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R197",
+                "value" : 7,
+                "cost" : 3,
+                "risk" : 1.442,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R198",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 1.238,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R199",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 0.849,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R200",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 1.489,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R201",
+                "value" : 7,
+                "cost" : 5,
+                "risk" : 2.516,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R202",
+                "value" : 8,
+                "cost" : 5,
+                "risk" : 2.258,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R203",
+                "value" : 2,
+                "cost" : 3,
+                "risk" : 0.638,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R204",
+                "value" : 5,
+                "cost" : 9,
+                "risk" : 1.421,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R205",
+                "value" : 7,
+                "cost" : 2,
+                "risk" : 1.794,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R206",
+                "value" : 4,
+                "cost" : 4,
+                "risk" : 1.103,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R207",
+                "value" : 2,
+                "cost" : 5,
+                "risk" : 0.428,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R208",
+                "value" : 9,
+                "cost" : 4,
+                "risk" : 2.419,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R209",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 0.806,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R210",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.537,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R211",
+                "value" : 3,
+                "cost" : 6,
+                "risk" : 0.654,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R212",
+                "value" : 6,
+                "cost" : 6,
+                "risk" : 0.916,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R213",
+                "value" : 3,
+                "cost" : 4,
+                "risk" : 0.73,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R214",
+                "value" : 6,
+                "cost" : 9,
+                "risk" : 1.61,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R215",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 1.185,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R216",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.605,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R217",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 1.104,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R218",
+                "value" : 7,
+                "cost" : 7,
+                "risk" : 1.679,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R219",
+                "value" : 4,
+                "cost" : 5,
+                "risk" : 1.274,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R220",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.27,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R221",
+                "value" : 4,
+                "cost" : 4,
+                "risk" : 0.966,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R222",
+                "value" : 3,
+                "cost" : 2,
+                "risk" : 0.546,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R223",
+                "value" : 3,
+                "cost" : 4,
+                "risk" : 0.643,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R224",
+                "value" : 6,
+                "cost" : 3,
+                "risk" : 2.492,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R225",
+                "value" : 2,
+                "cost" : 4,
+                "risk" : 0.516,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R226",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.554,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R227",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.375,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R228",
+                "value" : 7,
+                "cost" : 3,
+                "risk" : 1.722,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R229",
+                "value" : 9,
+                "cost" : 5,
+                "risk" : 2.16,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R230",
+                "value" : 6,
+                "cost" : 8,
+                "risk" : 1.311,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R231",
+                "value" : 4,
+                "cost" : 4,
+                "risk" : 0.736,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R232",
+                "value" : 2,
+                "cost" : 7,
+                "risk" : 0.678,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R233",
+                "value" : 3,
+                "cost" : 2,
+                "risk" : 0.845,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R234",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 2.217,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R235",
+                "value" : 5,
+                "cost" : 4,
+                "risk" : 1.5,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 1.5
+            },
+            {
+                "code" : "R236",
+                "value" : 8,
+                "cost" : 2,
+                "risk" : 1.106,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R237",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 0.866,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R238",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.241,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R239",
+                "value" : 7,
+                "cost" : 6,
+                "risk" : 1.289,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R240",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.031,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R241",
+                "value" : 4,
+                "cost" : 9,
+                "risk" : 1.005,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R242",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.2,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R243",
+                "value" : 6,
+                "cost" : 6,
+                "risk" : 1.208,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R244",
+                "value" : 4,
+                "cost" : 3,
+                "risk" : 0.849,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R245",
+                "value" : 9,
+                "cost" : 3,
+                "risk" : 2.193,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R246",
+                "value" : 6,
+                "cost" : 6,
+                "risk" : 0.88,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R247",
+                "value" : 1,
+                "cost" : 4,
+                "risk" : 0.351,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R248",
+                "value" : 9,
+                "cost" : 2,
+                "risk" : 1.939,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R249",
+                "value" : 3,
+                "cost" : 6,
+                "risk" : 0.743,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R250",
+                "value" : 6,
+                "cost" : 2,
+                "risk" : 1.275,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            }
+        ],
+
+
+
+
+    "twoFiftySet2":
+        [
+            {
+                "code" : "R1",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 0.798,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R2",
+                "value" : 4,
+                "cost" : 5,
+                "risk" : 0.963,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R3",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.311,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R4",
+                "value" : 6,
+                "cost" : 1,
+                "risk" : 1,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R5",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 1.631,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R6",
+                "value" : 7,
+                "cost" : 7,
+                "risk" : 1.631,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R7",
+                "value" : 8,
+                "cost" : 2,
+                "risk" : 1.701,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R8",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 1.59,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R9",
+                "value" : 6,
+                "cost" : 4,
+                "risk" : 1.672,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R10",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.433,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R11",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.96,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R12",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 1.195,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R13",
+                "value" : 9,
+                "cost" : 4,
+                "risk" : 2.367,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R14",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.277,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R15",
+                "value" : 5,
+                "cost" : 8,
+                "risk" : 0.735,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R16",
+                "value" : 7,
+                "cost" : 6,
+                "risk" : 0.85,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R17",
+                "value" : 3,
+                "cost" : 4,
+                "risk" : 0.688,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R18",
+                "value" : 1,
+                "cost" : 2,
+                "risk" : 0.107,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R19",
+                "value" : 6,
+                "cost" : 5,
+                "risk" : 1.423,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R20",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.436,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R21",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.32,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R22",
+                "value" : 1,
+                "cost" : 2,
+                "risk" : 0.241,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R23",
+                "value" : 1,
+                "cost" : 3,
+                "risk" : 0.212,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R24",
+                "value" : 1,
+                "cost" : 4,
+                "risk" : 0.201,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R25",
+                "value" : 1,
+                "cost" : 5,
+                "risk" : 0.462,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R26",
+                "value" : 1,
+                "cost" : 6,
+                "risk" : 0.412,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R27",
+                "value" : 1,
+                "cost" : 7,
+                "risk" : 0.172,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R28",
+                "value" : 1,
+                "cost" : 8,
+                "risk" : 0.13,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R29",
+                "value" : 1,
+                "cost" : 9,
+                "risk" : 0.28,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R30",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.45,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R31",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.812,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R32",
+                "value" : 2,
+                "cost" : 3,
+                "risk" : 0.485,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R33",
+                "value" : 2,
+                "cost" : 4,
+                "risk" : 0.618,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R34",
+                "value" : 2,
+                "cost" : 5,
+                "risk" : 0.507,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R35",
+                "value" : 2,
+                "cost" : 6,
+                "risk" : 0.68,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R36",
+                "value" : 2,
+                "cost" : 7,
+                "risk" : 0.316,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R37",
+                "value" : 2,
+                "cost" : 8,
+                "risk" : 0.564,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R38",
+                "value" : 2,
+                "cost" : 9,
+                "risk" : 0.485,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R39",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.88,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R40",
+                "value" : 3,
+                "cost" : 2,
+                "risk" : 0.906,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R41",
+                "value" : 3,
+                "cost" : 3,
+                "risk" : 0.7,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R42",
+                "value" : 3,
+                "cost" : 4,
+                "risk" : 0.693,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R43",
+                "value" : 3,
+                "cost" : 5,
+                "risk" : 0.66,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R44",
+                "value" : 3,
+                "cost" : 6,
+                "risk" : 0.501,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R45",
+                "value" : 3,
+                "cost" : 7,
+                "risk" : 0.484,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R46",
+                "value" : 3,
+                "cost" : 8,
+                "risk" : 0.534,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R47",
+                "value" : 3,
+                "cost" : 9,
+                "risk" : 0.717,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R48",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 0.859,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R49",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 1.023,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R50",
+                "value" : 4,
+                "cost" : 3,
+                "risk" : 0.774,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R51",
+                "value" : 4,
+                "cost" : 4,
+                "risk" : 0.523,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R52",
+                "value" : 4,
+                "cost" : 5,
+                "risk" : 0.99,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R53",
+                "value" : 4,
+                "cost" : 6,
+                "risk" : 0.536,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R54",
+                "value" : 4,
+                "cost" : 7,
+                "risk" : 1.108,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R55",
+                "value" : 4,
+                "cost" : 8,
+                "risk" : 0.875,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R56",
+                "value" : 4,
+                "cost" : 9,
+                "risk" : 1.023,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R57",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 0.54,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R58",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.208,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R59",
+                "value" : 5,
+                "cost" : 3,
+                "risk" : 1.332,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R60",
+                "value" : 5,
+                "cost" : 4,
+                "risk" : 1,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R61",
+                "value" : 5,
+                "cost" : 5,
+                "risk" : 1.498,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R62",
+                "value" : 5,
+                "cost" : 6,
+                "risk" : 1.202,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R63",
+                "value" : 5,
+                "cost" : 7,
+                "risk" : 0.638,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R64",
+                "value" : 5,
+                "cost" : 8,
+                "risk" : 1.77,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R65",
+                "value" : 5,
+                "cost" : 9,
+                "risk" : 1.485,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R66",
+                "value" : 6,
+                "cost" : 1,
+                "risk" : 1.434,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R67",
+                "value" : 6,
+                "cost" : 2,
+                "risk" : 1.245,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R68",
+                "value" : 6,
+                "cost" : 3,
+                "risk" : 1.714,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R69",
+                "value" : 6,
+                "cost" : 4,
+                "risk" : 0.824,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R70",
+                "value" : 6,
+                "cost" : 5,
+                "risk" : 0.797,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R71",
+                "value" : 6,
+                "cost" : 6,
+                "risk" : 1.669,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R72",
+                "value" : 6,
+                "cost" : 7,
+                "risk" : 1.835,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R73",
+                "value" : 6,
+                "cost" : 8,
+                "risk" : 0.883,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R74",
+                "value" : 6,
+                "cost" : 9,
+                "risk" : 1.853,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R75",
+                "value" : 7,
+                "cost" : 1,
+                "risk" : 1.619,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R76",
+                "value" : 7,
+                "cost" : 2,
+                "risk" : 1.79,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R77",
+                "value" : 7,
+                "cost" : 3,
+                "risk" : 1.468,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R78",
+                "value" : 7,
+                "cost" : 4,
+                "risk" : 1.291,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R79",
+                "value" : 7,
+                "cost" : 5,
+                "risk" : 1.087,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R80",
+                "value" : 7,
+                "cost" : 6,
+                "risk" : 1.368,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R81",
+                "value" : 7,
+                "cost" : 7,
+                "risk" : 1.93,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R82",
+                "value" : 7,
+                "cost" : 8,
+                "risk" : 1.669,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R83",
+                "value" : 7,
+                "cost" : 9,
+                "risk" : 1.526,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R84",
+                "value" : 8,
+                "cost" : 1,
+                "risk" : 2.044,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R85",
+                "value" : 8,
+                "cost" : 2,
+                "risk" : 3.335,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R86",
+                "value" : 8,
+                "cost" : 3,
+                "risk" : 0.98,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R87",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 2.515,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R88",
+                "value" : 8,
+                "cost" : 5,
+                "risk" : 2.127,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R89",
+                "value" : 8,
+                "cost" : 6,
+                "risk" : 2.979,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R90",
+                "value" : 8,
+                "cost" : 7,
+                "risk" : 2.314,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R91",
+                "value" : 8,
+                "cost" : 8,
+                "risk" : 2.006,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R92",
+                "value" : 8,
+                "cost" : 9,
+                "risk" : 2.004,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R93",
+                "value" : 9,
+                "cost" : 1,
+                "risk" : 1.739,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R94",
+                "value" : 9,
+                "cost" : 2,
+                "risk" : 3.281,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R95",
+                "value" : 9,
+                "cost" : 3,
+                "risk" : 1.302,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R96",
+                "value" : 9,
+                "cost" : 4,
+                "risk" : 1.713,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R97",
+                "value" : 9,
+                "cost" : 5,
+                "risk" : 1.542,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R98",
+                "value" : 9,
+                "cost" : 6,
+                "risk" : 2.139,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R99",
+                "value" : 9,
+                "cost" : 7,
+                "risk" : 1.472,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R100",
+                "value" : 9,
+                "cost" : 8,
+                "risk" : 1.657,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R101",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 0.68,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R102",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.536,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R103",
+                "value" : 5,
+                "cost" : 3,
+                "risk" : 0.931,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R104",
+                "value" : 8,
+                "cost" : 6,
+                "risk" : 2.104,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R105",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 0.766,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R106",
+                "value" : 5,
+                "cost" : 3,
+                "risk" : 1.756,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R107",
+                "value" : 9,
+                "cost" : 2,
+                "risk" : 2.221,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R108",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.519,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R109",
+                "value" : 7,
+                "cost" : 4,
+                "risk" : 1.806,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R110",
+                "value" : 1,
+                "cost" : 2,
+                "risk" : 0.168,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R111",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.287,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R112",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.491,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R113",
+                "value" : 1,
+                "cost" : 4,
+                "risk" : 0.195,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R114",
+                "value" : 6,
+                "cost" : 2,
+                "risk" : 1.359,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R115",
+                "value" : 8,
+                "cost" : 8,
+                "risk" : 1.235,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R116",
+                "value" : 4,
+                "cost" : 6,
+                "risk" : 0.864,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R117",
+                "value" : 2,
+                "cost" : 4,
+                "risk" : 0.469,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R118",
+                "value" : 1,
+                "cost" : 2,
+                "risk" : 0.272,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R119",
+                "value" : 6,
+                "cost" : 5,
+                "risk" : 1.286,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R120",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.227,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R121",
+                "value" : 8,
+                "cost" : 1,
+                "risk" : 2.514,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R122",
+                "value" : 1,
+                "cost" : 7,
+                "risk" : 0.31,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R123",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 0.635,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R124",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R125",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 1.469,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R126",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 1.106,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R127",
+                "value" : 2,
+                "cost" : 4,
+                "risk" : 0.565,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R128",
+                "value" : 5,
+                "cost" : 7,
+                "risk" : 1.239,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R129",
+                "value" : 8,
+                "cost" : 2,
+                "risk" : 2.172,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R130",
+                "value" : 4,
+                "cost" : 4,
+                "risk" : 0.666,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R131",
+                "value" : 1,
+                "cost" : 5,
+                "risk" : 0.302,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R132",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 1.241,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R133",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 0.842,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R134",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.645,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R135",
+                "value" : 3,
+                "cost" : 6,
+                "risk" : 0.626,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R136",
+                "value" : 3,
+                "cost" : 3,
+                "risk" : 0.741,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R137",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 1.085,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R138",
+                "value" : 6,
+                "cost" : 2,
+                "risk" : 0.813,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R139",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 1.77,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R140",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.552,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R141",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.734,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R142",
+                "value" : 3,
+                "cost" : 2,
+                "risk" : 0.64,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R143",
+                "value" : 6,
+                "cost" : 3,
+                "risk" : 2.178,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R144",
+                "value" : 2,
+                "cost" : 4,
+                "risk" : 0.537,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R145",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.372,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R146",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.411,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R147",
+                "value" : 7,
+                "cost" : 3,
+                "risk" : 1.783,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R148",
+                "value" : 9,
+                "cost" : 5,
+                "risk" : 2.391,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R149",
+                "value" : 6,
+                "cost" : 1,
+                "risk" : 1.512,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R150",
+                "value" : 6,
+                "cost" : 6,
+                "risk" : 1.494,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R151",
+                "value" : 1,
+                "cost" : 3,
+                "risk" : 0.264,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R152",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.785,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R153",
+                "value" : 2,
+                "cost" : 6,
+                "risk" : 0.628,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R154",
+                "value" : 6,
+                "cost" : 2,
+                "risk" : 1.331,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R155",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.479,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R156",
+                "value" : 3,
+                "cost" : 7,
+                "risk" : 0.763,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R157",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.627,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R158",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 1.786,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R159",
+                "value" : 5,
+                "cost" : 4,
+                "risk" : 1.747,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R160",
+                "value" : 6,
+                "cost" : 4,
+                "risk" : 1.442,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R161",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 1.092,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R162",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.953,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R163",
+                "value" : 7,
+                "cost" : 6,
+                "risk" : 1.928,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R164",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.502,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R165",
+                "value" : 4,
+                "cost" : 8,
+                "risk" : 1.011,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R166",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.227,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R167",
+                "value" : 6,
+                "cost" : 6,
+                "risk" : 1.324,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R168",
+                "value" : 4,
+                "cost" : 3,
+                "risk" : 1.114,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R169",
+                "value" : 9,
+                "cost" : 2,
+                "risk" : 1.61,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R170",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 1.138,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R171",
+                "value" : 7,
+                "cost" : 7,
+                "risk" : 1.828,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R172",
+                "value" : 4,
+                "cost" : 5,
+                "risk" : 1.277,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R173",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.389,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R174",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.438,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R175",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.487,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R176",
+                "value" : 9,
+                "cost" : 9,
+                "risk" : 2.214,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R177",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 0.724,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R178",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 1.466,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R179",
+                "value" : 6,
+                "cost" : 3,
+                "risk" : 1.199,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R180",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 0.894,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R181",
+                "value" : 9,
+                "cost" : 4,
+                "risk" : 2.418,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R182",
+                "value" : 2,
+                "cost" : 9,
+                "risk" : 0.504,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R183",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.345,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R184",
+                "value" : 6,
+                "cost" : 3,
+                "risk" : 0.767,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R185",
+                "value" : 3,
+                "cost" : 1,
+                "risk" : 0.506,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R186",
+                "value" : 4,
+                "cost" : 7,
+                "risk" : 1.023,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R187",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 1.209,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R188",
+                "value" : 3,
+                "cost" : 7,
+                "risk" : 0.409,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R189",
+                "value" : 8,
+                "cost" : 3,
+                "risk" : 2.505,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R190",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 1.161,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R191",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.265,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R192",
+                "value" : 3,
+                "cost" : 3,
+                "risk" : 0.717,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R193",
+                "value" : 9,
+                "cost" : 9,
+                "risk" : 2.364,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R194",
+                "value" : 3,
+                "cost" : 2,
+                "risk" : 0.647,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R195",
+                "value" : 6,
+                "cost" : 2,
+                "risk" : 1.933,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R196",
+                "value" : 2,
+                "cost" : 3,
+                "risk" : 0.285,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R197",
+                "value" : 7,
+                "cost" : 3,
+                "risk" : 1.442,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R198",
+                "value" : 5,
+                "cost" : 1,
+                "risk" : 1.238,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R199",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 0.849,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R200",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 1.489,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R201",
+                "value" : 7,
+                "cost" : 5,
+                "risk" : 2.516,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R202",
+                "value" : 8,
+                "cost" : 5,
+                "risk" : 2.258,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R203",
+                "value" : 2,
+                "cost" : 3,
+                "risk" : 0.638,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R204",
+                "value" : 5,
+                "cost" : 9,
+                "risk" : 1.421,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R205",
+                "value" : 7,
+                "cost" : 2,
+                "risk" : 1.794,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R206",
+                "value" : 4,
+                "cost" : 4,
+                "risk" : 1.103,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R207",
+                "value" : 2,
+                "cost" : 5,
+                "risk" : 0.428,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R208",
+                "value" : 9,
+                "cost" : 4,
+                "risk" : 2.419,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R209",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 0.806,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R210",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.537,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R211",
+                "value" : 3,
+                "cost" : 6,
+                "risk" : 0.654,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R212",
+                "value" : 6,
+                "cost" : 6,
+                "risk" : 0.916,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R213",
+                "value" : 3,
+                "cost" : 4,
+                "risk" : 0.73,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R214",
+                "value" : 6,
+                "cost" : 9,
+                "risk" : 1.61,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R215",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 1.185,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R216",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.605,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R217",
+                "value" : 4,
+                "cost" : 2,
+                "risk" : 1.104,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R218",
+                "value" : 7,
+                "cost" : 7,
+                "risk" : 1.679,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R219",
+                "value" : 4,
+                "cost" : 5,
+                "risk" : 1.274,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R220",
+                "value" : 2,
+                "cost" : 2,
+                "risk" : 0.27,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R221",
+                "value" : 4,
+                "cost" : 4,
+                "risk" : 0.966,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R222",
+                "value" : 3,
+                "cost" : 2,
+                "risk" : 0.546,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R223",
+                "value" : 3,
+                "cost" : 4,
+                "risk" : 0.643,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R224",
+                "value" : 6,
+                "cost" : 3,
+                "risk" : 2.492,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R225",
+                "value" : 2,
+                "cost" : 4,
+                "risk" : 0.516,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R226",
+                "value" : 2,
+                "cost" : 1,
+                "risk" : 0.554,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R227",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.375,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R228",
+                "value" : 7,
+                "cost" : 3,
+                "risk" : 1.722,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R229",
+                "value" : 9,
+                "cost" : 5,
+                "risk" : 2.16,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R230",
+                "value" : 6,
+                "cost" : 8,
+                "risk" : 1.311,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R231",
+                "value" : 4,
+                "cost" : 4,
+                "risk" : 0.736,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R232",
+                "value" : 2,
+                "cost" : 7,
+                "risk" : 0.678,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 2
+            },
+            {
+                "code" : "R233",
+                "value" : 3,
+                "cost" : 2,
+                "risk" : 0.845,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R234",
+                "value" : 8,
+                "cost" : 4,
+                "risk" : 2.217,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R235",
+                "value" : 5,
+                "cost" : 4,
+                "risk" : 1.5,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 1.5
+            },
+            {
+                "code" : "R236",
+                "value" : 8,
+                "cost" : 2,
+                "risk" : 1.106,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R237",
+                "value" : 4,
+                "cost" : 1,
+                "risk" : 0.866,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            },
+            {
+                "code" : "R238",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.241,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R239",
+                "value" : 7,
+                "cost" : 6,
+                "risk" : 1.289,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R240",
+                "value" : 5,
+                "cost" : 2,
+                "risk" : 1.031,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 4
+            },
+            {
+                "code" : "R241",
+                "value" : 4,
+                "cost" : 9,
+                "risk" : 1.005,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R242",
+                "value" : 1,
+                "cost" : 1,
+                "risk" : 0.2,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R243",
+                "value" : 6,
+                "cost" : 6,
+                "risk" : 1.208,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R244",
+                "value" : 4,
+                "cost" : 3,
+                "risk" : 0.849,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R245",
+                "value" : 9,
+                "cost" : 3,
+                "risk" : 2.193,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R246",
+                "value" : 6,
+                "cost" : 6,
+                "risk" : 0.88,
+                "returnRate" : 0.01,
+                "dependencies" : [],
+                "timeRemaining" : 5
+            },
+            {
+                "code" : "R247",
+                "value" : 1,
+                "cost" : 4,
+                "risk" : 0.351,
+                "returnRate" : 0.02,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R248",
+                "value" : 9,
+                "cost" : 2,
+                "risk" : 1.939,
+                "returnRate" : 0.03,
+                "dependencies" : [],
+                "timeRemaining" : 0
+            },
+            {
+                "code" : "R249",
+                "value" : 3,
+                "cost" : 6,
+                "risk" : 0.743,
+                "returnRate" : 0.04,
+                "dependencies" : [],
+                "timeRemaining" : 1
+            },
+            {
+                "code" : "R250",
+                "value" : 6,
+                "cost" : 2,
+                "risk" : 1.275,
+                "returnRate" : 0.05,
+                "dependencies" : [],
+                "timeRemaining" : 3
+            }
+        ]
+
+}

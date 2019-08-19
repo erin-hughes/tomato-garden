@@ -1,0 +1,79 @@
+.plan-container {
+    margin-top: 80px;
+}
+
+.plan-container > h2 {
+    color: #DC3545;
+    margin-left: 50px;
+}
+
+.plan-container > h6 {
+    margin-left: 50px;
+}
+
+.plain-background {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 93.5%;
+    top: 55px;
+    z-index: -100;
+}
+
+.algorithm-btns:last-of-type {
+    text-align: center;
+    margin-top: -40px;
+}
+
+.algorithm-btns:last-of-type > button {
+    margin-right: 20px;
+}
+
+.algorithm-btns:last-of-type > button:last-of-type {
+    margin-right: 0px;
+}
+
+.algorithm-btns:first-of-type {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 160px;
+}
+
+.algorithm-btns:first-of-type > button {
+    margin-bottom: 30px;
+}
+
+.algorithm-btns:first-of-type > button:last-of-type {
+    margin-bottom: 0px;
+}
+
+.requirements-btns {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+    margin-left: 1400px;
+}
+
+.requirements-btns > button {
+    margin-bottom: 30px;
+}
+
+.requirements-btns > button:last-of-type {
+    margin-bottom: 0px;
+}
+
+.btn-bottom {
+    margin-top: 30px;
+}
+
+.btn-bottom:first-of-type {
+    margin-left: 50px;
+}
+
+.release-div {
+    text-align: center;
+    margin-left: 50px;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "SubPlan",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "planIndex": {
+      "type": "string",
+      "required": true
+    },
+    "requirements": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "completed": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "masterPlan": {
+      "type": "belongsTo",
+      "model": "MasterPlan",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,28 @@
+{
+  "name": "MasterPlan",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "algorithm": {
+      "type": "string",
+      "required": true
+    },
+    "timeRemaining": {
+      "type": "number",
+      "default": 6
+    }
+  },
+  "validations": [],
+  "relations": {
+    "subPlans": {
+      "type": "hasMany",
+      "model": "SubPlan",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

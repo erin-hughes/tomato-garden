@@ -1,0 +1,41 @@
+{
+  "name": "Requirement",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "code": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "number",
+      "required": true
+    },
+    "cost": {
+      "type": "number",
+      "required": true
+    },
+    "risk": {
+      "type": "number",
+      "required": true
+    },
+    "dependencies": {
+      "type": [
+        "string"
+      ]
+    },
+    "returnRate": {
+      "type": "number"
+    },
+    "timeRemaining" : {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
